@@ -158,7 +158,7 @@ You can set up basic authentication for your incoming webhook notifications in `
 
 ##Set the controller name used to handle webhooks
 
-If you’d like to use a different controller to handle webhooks, you can extend the `ChargebeeRails::WebhookController` and add the controller name in config.webhook_handler.
+If you’d like to use a different controller to handle webhooks, you can extend the `ChargebeeRails::WebhooksController` and add the controller name in config.webhook_handler.
 
 ```ruby
 
